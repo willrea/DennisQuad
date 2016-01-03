@@ -34,7 +34,7 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -175,18 +175,6 @@
 <wire x1="23.5" y1="0" x2="25" y2="1.5" width="0" layer="20" curve="90"/>
 <text x="1.85" y="3.5" size="1" layer="21" ratio="15" rot="R90">-BAT+</text>
 <text x="15.3" y="2" size="1" layer="21" ratio="15">MOTORS</text>
-<wire x1="21.5" y1="22.5" x2="18" y2="22.5" width="0.25" layer="22"/>
-<wire x1="21.5" y1="22.5" x2="21.5" y2="19.05" width="0.25" layer="22"/>
-<wire x1="18" y1="22.5" x2="18.5" y2="22.75" width="0.25" layer="22"/>
-<wire x1="18" y1="22.45" x2="18.5" y2="22.25" width="0.25" layer="22"/>
-<wire x1="18.5" y1="22.25" x2="18.5" y2="22.75" width="0.25" layer="22"/>
-<wire x1="21.5" y1="19" x2="21.75" y2="19.5" width="0.25" layer="22"/>
-<wire x1="21.5" y1="19" x2="21.25" y2="19.5" width="0.25" layer="22"/>
-<wire x1="21.25" y1="19.5" x2="21.75" y2="19.5" width="0.25" layer="22"/>
-<wire x1="21.1" y1="22.1" x2="21.9" y2="22.9" width="0.25" layer="22"/>
-<wire x1="21.1" y1="22.9" x2="21.9" y2="22.1" width="0.25" layer="22"/>
-<text x="18.75" y="22.7" size="1" layer="22" ratio="15" rot="MR90">X</text>
-<text x="22.45" y="19.25" size="1" layer="22" ratio="15" rot="MR0">Y</text>
 <text x="14.5" y="4.25" size="0.75" layer="21" ratio="15">1</text>
 <text x="17.2" y="4.2" size="0.75" layer="21" ratio="15">2</text>
 <text x="19.65" y="4.2" size="0.75" layer="21" ratio="15">3</text>
@@ -201,8 +189,8 @@
 <wire x1="3" y1="11.45" x2="0.8" y2="11.45" width="0.127" layer="21"/>
 <wire x1="0.8" y1="11.45" x2="0.8" y2="9.4" width="0.127" layer="21"/>
 <circle x="0.8" y="11.45" radius="0.160075" width="0.2" layer="21"/>
-<text x="1.4" y="9.4" size="0.4" layer="21" rot="R90">X</text>
-<text x="2.7" y="11.3" size="0.4" layer="21" rot="SR270">y</text>
+<text x="1.4" y="9.4" size="0.6" layer="21" rot="R90">X</text>
+<text x="2.7" y="11.3" size="0.6" layer="21" rot="SR270">y</text>
 <wire x1="6.1" y1="21.9" x2="7.575" y2="21.9" width="0.127" layer="22"/>
 <wire x1="7.575" y1="21.9" x2="9.1" y2="21.9" width="0.127" layer="22"/>
 <wire x1="9.1" y1="21.9" x2="9.1" y2="19.4" width="0.127" layer="22"/>
@@ -960,125 +948,101 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="LED1" library="jaw" package="SMD0805-DUAL" value="LED-DUAL0805" x="20.6" y="23.75" smashed="yes">
 <attribute name="NAME" x="18.684" y="22.497" size="0.4064" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="19.772" y="25.264" size="1" layer="27" font="vector" ratio="10"/>
 <attribute name="MPN" value="APHBM2012QBDSURKC" x="20.6" y="23.75" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R6" library="SparkFun-Resistors" package="0402-RES" value="1k" x="19.425" y="21.425" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.175" y="19.825" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" x="18.939" y="22.453" size="1" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="MPN" value="ERJ-2GEJ102X" x="19.425" y="21.425" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R7" library="SparkFun-Resistors" package="0402-RES" value="1k" x="20.8" y="20.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="20.197" y="21.941" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" x="20.214" y="21.678" size="1" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="MPN" value="ERJ-2GEJ102X" x="20.8" y="20.75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C16" library="SparkFun-Capacitors" package="0402-CAP" value="0.1uF" x="19.4" y="6.95" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.072" y="8.166" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="18.864" y="8.078" size="1" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="MPN" value="CL05B104JO5NNNC" x="19.4" y="6.95" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C19" library="SparkFun-Capacitors" package="0603-CAP" value="10uF" x="11.075" y="6.525" smashed="yes" rot="R90">
 <attribute name="NAME" x="11.447" y="4.541" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" x="11.661" y="4.943" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 <attribute name="MPN" value="C1206C106M4RACAUTO" x="11.075" y="6.525" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" package="0402-RES" value="4k7" x="7.75" y="6.375" smashed="yes" rot="R270">
 <attribute name="NAME" x="7.172" y="7.591" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" x="7.214" y="7.703" size="1" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="MPN" value="ERJ-PA2F4701X" x="7.75" y="6.375" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R5" library="SparkFun-Resistors" package="0402-RES" value="4k7" x="9.125" y="6.375" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.897" y="7.566" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" x="9.511" y="5.247" size="1" layer="27" font="vector" ratio="10" rot="R90"/>
 <attribute name="MPN" value="ERJ-PA2F4701X" x="9.125" y="6.375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C14" library="SparkFun-Capacitors" package="0402-CAP" value="0.1uF" x="6.55" y="6.35" smashed="yes" rot="R270">
 <attribute name="NAME" x="6.022" y="7.516" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" x="6.264" y="7.428" size="1" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="MPN" value="CL05B104JO5NNNC" x="6.55" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U6" library="jaw" package="HLGA10L" value="LPS25HB" x="13.6" y="21.7" smashed="yes" rot="MR0">
-<attribute name="NAME" x="14.05" y="19.325" size="0.75" layer="26" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="14.55" y="23.425" size="0.4064" layer="26" rot="MR0"/>
 </element>
 <element name="C22" library="SparkFun-Capacitors" package="0402-CAP" value="0.1uF" x="15.95" y="22.225" smashed="yes" rot="MR90">
-<attribute name="NAME" x="15.572" y="20.659" size="0.4064" layer="26" font="vector" ratio="10" rot="MR180"/>
-<attribute name="VALUE" x="15.414" y="20.897" size="1" layer="28" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="15.972" y="24.159" size="0.4064" layer="26" rot="MR180"/>
 <attribute name="MPN" value="CL05B104JO5NNNC" x="15.95" y="22.225" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="U2" library="nRF52Series" package="QFN48" value="NRF52832_QFN48" x="17.8" y="15.5" smashed="yes" rot="R90">
 <attribute name="FOOTPRINT" value="QFN48" x="17.8" y="15.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="12.825" y="18.725" size="0.6096" layer="25" font="vector"/>
-<attribute name="VALUE" x="22.55" y="11.75" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C5" library="SparkFun-Capacitors" package="0402-CAP" value="0.1uF" x="23.05" y="10.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.536" y="9.012" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" x="21.907" y="11.766" size="0.4064" layer="27" font="vector" rot="R270"/>
 <attribute name="MPN" value="CL05B104JO5NNNC" x="23.05" y="10.75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C4" library="SparkFun-Capacitors" package="0402-CAP" value="0.1uF" x="13.775" y="10.15" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.186" y="11.4485" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="14.918" y="9.0705" size="0.4064" layer="27" rot="R90"/>
 <attribute name="MPN" value="CL05B104JO5NNNC" x="13.775" y="10.15" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C2" library="SparkFun-Capacitors" package="0603-CAP" value="4.7pF" x="21.425" y="9.925" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.761" y="11.4735" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="22.568" y="8.8455" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="C9" library="SparkFun-Capacitors" package="0402-CAP" value="100pF" x="11.425" y="13.225" smashed="yes" rot="R180">
 <attribute name="NAME" x="10.186" y="13.8735" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="12.5045" y="14.368" size="0.4064" layer="27" rot="R180"/>
 <attribute name="MPN" value="GRM1555C1H101JA01D" x="11.425" y="13.225" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C3" library="SparkFun-Capacitors" package="0402-CAP" value="16pF" x="11.5" y="8.575" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.286" y="8.337" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" x="12.516" y="9.718" size="0.4064" layer="27" font="vector" rot="R180"/>
 <attribute name="MPN" value="GRM1555C1H160GA01D" x="11.5" y="8.575" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C8" library="SparkFun-Capacitors" package="0402-CAP" value="16pF" x="9.875" y="10.59" smashed="yes" rot="R90">
 <attribute name="NAME" x="9.186" y="11.8385" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="11.018" y="9.5105" size="0.4064" layer="27" rot="R90"/>
 <attribute name="MPN" value="GRM1555C1H160GA01D" x="9.875" y="10.59" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="RESET" library="omron" package="B3U-1000P(M)" value="SPST.B3U-1000P(M)" x="7.25" y="22.55" smashed="yes" rot="R90">
 <attribute name="NAME" x="5.865" y="21.44" size="0.6096" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="7.885" y="25.09" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="U5" library="template" package="LEAD-QFN24" value="MPU-9250" x="13.6" y="22.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.705" y="23.759" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="12.965" y="23.37" size="0.635" layer="27" ratio="11" rot="R270"/>
 </element>
 <element name="C18" library="SparkFun-Capacitors" package="0402-CAP" value="10000pF" x="10.925" y="23.225" smashed="yes" rot="R90">
 <attribute name="NAME" x="9.33" y="23.939" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="9.655" y="22.9075" size="0.635" layer="27" ratio="10"/>
 <attribute name="NAME" x="9.655" y="22.971" size="0.635" layer="33" ratio="10"/>
 <attribute name="MPN" value="CL05B103KP5NNNC" x="10.925" y="23.225" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C15" library="SparkFun-Capacitors" package="0402-CAP" value="0.1uF" x="9.925" y="21.175" smashed="yes" rot="R180">
 <attribute name="NAME" x="8.755" y="21.814" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="10.2425" y="19.905" size="0.635" layer="27" ratio="10" rot="R90"/>
 <attribute name="NAME" x="10.179" y="19.905" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="MPN" value="CL05B104JO5NNNC" x="9.925" y="21.175" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C21" library="SparkFun-Capacitors" package="0402-CAP" value="0.1uF" x="11.15" y="19.525" smashed="yes">
 <attribute name="NAME" x="9.78" y="20.164" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="10.8325" y="20.795" size="0.635" layer="27" ratio="10" rot="R270"/>
 <attribute name="NAME" x="10.896" y="20.795" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="MPN" value="CL05B104JO5NNNC" x="11.15" y="19.525" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C13" library="SparkFun-Capacitors" package="0402-CAP" value="0.1uF" x="22.025" y="20.85" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.011" y="19.2235" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="23.168" y="19.7705" size="0.4064" layer="27" rot="R90"/>
 <attribute name="MPN" value="CL05B104JO5NNNC" x="22.025" y="20.85" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="L1" library="SparkFun-Passives" package="0603" value="3.9nH" x="9.6" y="15.75" smashed="yes">
 <attribute name="NAME" x="9.311" y="17.012" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" x="8.584" y="14.607" size="0.4064" layer="27" font="vector"/>
 <attribute name="MPN" value="AISC-0402-3N9J-T" x="9.6" y="15.75" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C11" library="SparkFun-Capacitors" package="0402-CAP" value="0.8pF" x="12.175" y="15.25" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.736" y="16.7985" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="11.032" y="16.3295" size="0.4064" layer="27" rot="R270"/>
 <attribute name="MPN" value="GRM1555C2AR80BA01D" x="12.175" y="15.25" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U4" library="jseng" package="PWSON-N12" value="DRV8839" x="20.75" y="5.9" smashed="yes">
@@ -1089,12 +1053,10 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="C7" library="SparkFun-Capacitors" package="0402-CAP" value="8pF" x="24.1" y="10.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.561" y="9.0235" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="22.957" y="11.8295" size="0.4064" layer="27" rot="R270"/>
 <attribute name="MPN" value="GRM1555C1H8R0BA01D" x="24.1" y="10.75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C10" library="SparkFun-Capacitors" package="0402-CAP" value="8pF" x="23.175" y="16.95" smashed="yes" rot="R180">
 <attribute name="NAME" x="23.414" y="18.1015" size="0.4064" layer="25" rot="R180"/>
-<attribute name="VALUE" x="24.2545" y="18.093" size="0.4064" layer="27" rot="R180"/>
 <attribute name="MPN" value="GRM1555C1H8R0BA01D" x="23.175" y="16.95" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" package="0402-RES" value="" x="16.8" y="23.4" smashed="yes" rot="R90">
@@ -1107,27 +1069,22 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="C17" library="SparkFun-Capacitors" package="0402-CAP" value="0.1uF" x="16.5" y="8.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.011" y="10.2985" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="15.357" y="9.9795" size="0.4064" layer="27" rot="R270"/>
 <attribute name="MPN" value="CL05B104JO5NNNC" x="16.5" y="8.9" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="X1" library="abracon" package="ABS07" value="CRYSTAL.ABS07" x="23.6" y="14.125" smashed="yes" rot="R90">
 <attribute name="MPN" value="ABS07-120-32.768KHZ-T" x="23.6" y="14.125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="21.85" y="15.625" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" x="25.6" y="12.625" size="0.8128" layer="27" font="vector" ratio="12" rot="R90"/>
 </element>
 <element name="C20" library="SparkFun-Capacitors" package="0603-CAP" value="10uF" x="17.3" y="6.375" smashed="yes" rot="R180">
 <attribute name="MPN" value="C1206C106M4RACAUTO" x="17.3" y="6.375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="16.911" y="7.187" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" x="18.316" y="7.518" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C6" library="SparkFun-Capacitors" package="0402-CAP" value="2.2uF" x="10" y="4.025" smashed="yes">
 <attribute name="NAME" x="8.911" y="4.6235" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="8.9205" y="2.882" size="0.4064" layer="27"/>
 <attribute name="MPN" value="GRT155R61C225KE13D" x="10" y="4.025" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C12" library="SparkFun-Capacitors" package="0402-CAP" value="2.2uF" x="9.9" y="2.35" smashed="yes" rot="R180">
 <attribute name="NAME" x="8.961" y="2.9985" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="10.9795" y="3.493" size="0.4064" layer="27" rot="R180"/>
 <attribute name="MPN" value="GRT155R61C225KE13D" x="9.9" y="2.35" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U1" library="wrea" package="6-VDFN" value="MCP1700T-3302E/MAY" x="7.3" y="3.525" smashed="yes" rot="R180">
@@ -1136,7 +1093,6 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="C1" library="SparkFun-Capacitors" package="0603-CAP" value="1.0uF" x="18.9" y="10.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.511" y="10.812" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" x="19.916" y="11.243" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R3" library="SparkFun-Resistors" package="0402-RES" value="1k" x="5.925" y="19.275" smashed="yes" rot="R270">
 <attribute name="NAME" x="7.364" y="19.6765" size="0.4064" layer="25" rot="R180"/>
@@ -1145,7 +1101,6 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="Q1" library="crystal" package="FA-128" value="FA-128" x="11.725" y="10.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="12.055" y="12.07" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="9.185" y="11.87" size="1.27" layer="27" rot="R270"/>
 <attribute name="MPN" value="FA-128 32.0000MF20X-K3" x="11.725" y="10.6" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="12.7" y="12.7" rot="MR0"/>
